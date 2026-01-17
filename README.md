@@ -13,6 +13,26 @@ This data analysis project aims to provide insights into the ESG Risk profile of
 ### Data Sources
 ESG Data: The primary dataset used for this analysis is the "esg_data.csv" file, containing detailed information about each sale made by the company.(kaggle)
 
+### Data Dictionary
+| Column Name | Description |
+|------------|-------------|
+| Symbol | The unique stock symbol associated with the company |
+| Name | The official name of the company |
+| Address | The primary address of the company's headquarters |
+| Sector | The sector of the economy in which the company operates |
+| Industry | The specific industry to which the company belongs |
+| Full Time Employees | The total count of full-time employees working within the company |
+| Description | A concise overview of the company's core business and activities |
+| Total ESG Risk Score | An aggregate score evaluating the company's overall ESG risk |
+| Environment Risk Score | A score indicating the company's environmental sustainability and impact |
+| Governance Risk Score | A score reflecting the quality of the company's governance structure |
+| Social Risk Score | A score assessing the company's societal and employee-related practices |
+| Controversy Level | The level of controversies associated with the company's ESG practices |
+| Controversy Score | A numerical representation of the extent of ESG-related controversies |
+| ESG Risk Percentile | The company's rank in terms of ESG risk compared to others |
+| ESG Risk Level | A categorical indication of the company's ESG risk level |
+
+
 ### Tools
 
 - Excel - Data Cleaning [Download here](https://microsoft.com)
@@ -32,9 +52,16 @@ In the initial data preparation phase, we performed the following tasks:
 
 EDA involved exploring the sales data to answer key questions, such as:
 
-1. What is the overall sales trend?
-2. Which products are top sellers?
-3. What are the peak sales periods?
+1. What is the overall distribution of ESG risk across S&P 500 companies?
+2. Which sectors exhibit the highest and lowest average ESG risk scores?
+3. How does ESG risk vary across industries within the same sector?
+4. Which ESG pillar (Environmental, Social, or Governance) is the primary driver of risk within each industry?
+5. Are high-risk industries driven by a single dominant ESG pillar or by balanced risk across E, S, and G?
+6. How does ESG risk change as controversy severity increases?
+7. Are there companies with high ESG risk but low controversy levels (or vice versa)?
+8. Is there a relationship between company size (e.g., number of employees) and ESG risk level?
+9. What proportion of the S&P 500 workforce is employed by high or severe ESG-risk companies?
+10. Are there geographic patterns in ESG risk concentration among S&P 500 companies?
 
 ### Data Analysis
 
