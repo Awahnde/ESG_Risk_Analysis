@@ -76,7 +76,7 @@ WHERE cond = 2;
 ### Results
 The analysis results are summarized as follows:
 
-1. Most S&P 500 companies fall into Low to Medium ESG risk categories, while High and Severe risks are concentrated in a relatively small subset of firms.
+#### 1. Most S&P 500 companies fall into Low to Medium ESG risk categories, while High and Severe risks are concentrated in a relatively small subset of firms.
 
 <img width="698" height="403" alt="image" src="https://github.com/user-attachments/assets/01f90e85-c28c-444e-9cc2-7edb92abc760" />
 
@@ -84,8 +84,13 @@ The overall ESG risk distribution across the S&P 500 is skewed toward Low and Me
 Out of the total companies analyzed, 179 fall into the Medium-risk category and 166 into Low risk, indicating that ESG exposure is generally manageable for most firms.
 However, 73 companies are classified as High risk, while only 3 and 5 companies fall into the Severe and Negligible categories respectively, suggesting that ESG risk is concentrated rather than widespread.
 
+ 
+#### 2. ESG risk varies significantly across sectors, with Energy companies facing the highest exposure and Real Estate firms the lowest.
 
-2. The Energy sector exhibits the highest average ESG risk score at 32.2, while the Real Estate sector records the lowest at 13.5.
+<img width="736" height="379" alt="image" src="https://github.com/user-attachments/assets/8f1738a9-a206-439b-92c5-6968f438a16a" />
+
+
+The Energy sector exhibits the highest average ESG risk score at 32.2, while the Real Estate sector records the lowest at 13.5.
 This indicates that ESG risk exposure varies meaningfully by sector, with Energy companies facing substantially higher ESG-related risks compared to Real Estate firms, which appear relatively lower risk across the index.
 
 
@@ -95,8 +100,8 @@ This indicates that ESG risk exposure varies meaningfully by sector, with Energy
 
 
    
-3. Product Category A is the best performing category in terms of sales and revenue.
-4. Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
+5. Product Category A is the best performing category in terms of sales and revenue.
+6. Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
 
 ### Recommendations
 
